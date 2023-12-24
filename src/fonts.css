@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+.abhaya-libre-normal {
+    font-family: 'Abhaya Libre', sans-serif;
+}
+
+.abhaya-libre-500 .abhaya-libre-medium {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 500;
+}
+
+.abhaya-libre-600 .abhaya-libre-semibold {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 600;
+}
+
+.abhaya-libre-700 .abhaya-libre-bold {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 700;
+}
+
+.abhaya-libre-800 .abhaya-libre-extrabold {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 800;
+}
