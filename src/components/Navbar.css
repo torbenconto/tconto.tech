@@ -29,3 +29,26 @@
 .nav-option.active::after {
   width: 100%;
 }
+  
+  /* Define the animation for the powdered blue gradient */
+  @keyframes powderedBlueGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  /* Add hover effect to change text color on hover */
+  .powdered-blue-text-animated:hover {
+    background: linear-gradient(90deg, #b0e0e6, #87cefa);
+    background-size: 200% 200%;
+    animation: powderedBlueGradient 2s infinite; /* Use the animation defined below */
+    background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text transparent so that the background shows through */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+  
