@@ -8,22 +8,22 @@
     font-family: 'Abhaya Libre', sans-serif;
 }
 
-.abhaya-libre-500 .abhaya-libre-medium {
+.abhaya-libre-500, .abhaya-libre-medium {
     font-family: 'Abhaya Libre', sans-serif;
     font-weight: 500;
 }
 
-.abhaya-libre-600 .abhaya-libre-semibold {
+.abhaya-libre-600, .abhaya-libre-semibold {
     font-family: 'Abhaya Libre', sans-serif;
     font-weight: 600;
 }
 
-.abhaya-libre-700 .abhaya-libre-bold {
+.abhaya-libre-700, .abhaya-libre-bold {
     font-family: 'Abhaya Libre', sans-serif;
     font-weight: 700;
 }
 
-.abhaya-libre-800 .abhaya-libre-extrabold {
+.abhaya-libre-800, .abhaya-libre-extrabold {
     font-family: 'Abhaya Libre', sans-serif;
     font-weight: 800;
 }

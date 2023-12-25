@@ -1,0 +1,31 @@
+:root {
+    --underline-color: #161616;
+}
+
+@keyframes pencilUnderline {
+    to {
+      width: 100%;
+    }
+}
+
+.nav-option {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-option::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--underline-color);
+    transform-origin: bottom right;
+    transition: width 0.3s ease;
+}
+
+.nav-option:hover::after,
+.nav-option.active::after {
+  width: 100%;
+}
