@@ -1,4 +1,4 @@
-import "./TopGradient.css"
+import "../styles/TopGradient.css"
 function TopGradient() {
   return (
     <div className="box">

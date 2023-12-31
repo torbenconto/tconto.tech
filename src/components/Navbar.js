@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "../fonts.css";
-import "./Navbar.css";
+import "../styles/fonts.css";
+import "../styles/Navbar.css";
 
 function Navbar() {
     const [activeLink, setActiveLink] = useState(0);

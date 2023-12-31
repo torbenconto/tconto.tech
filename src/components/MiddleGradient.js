@@ -1,4 +1,4 @@
-import "./MiddleGradient.css";
+import "../styles/MiddleGradient.css";
 
 function MiddleGradient() {
     return (

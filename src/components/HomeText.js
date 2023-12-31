@@ -1,5 +1,5 @@
-import "../fonts.css"
-import "../colors.css"
+import "../styles/fonts.css"
+import "../styles/colors.css"
 
 function HomeText() {
     return (

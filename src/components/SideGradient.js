@@ -1,4 +1,4 @@
-import "./SideGradient.css";
+import "../styles/SideGradient.css";
 
 function SideGradient() {
     return (
