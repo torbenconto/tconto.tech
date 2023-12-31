@@ -1,0 +1,7 @@
+:root {
+    --soft-text-color: #272F33;
+}
+
+.soft-text-color {
+    color: var(--soft-text-color);
+}

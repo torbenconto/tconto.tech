@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <div className="w-full">
         {/* Bar with padding */}
-        <div className="p-12 flex">
+        <div className="flex">
             <h1 className="w-1/2 text-xl abhaya-libre-extrabold powdered-blue-text-animated">Torben Conto</h1>
             {/* Nav Options */}
             <div className="w-1/2 flex justify-center">
