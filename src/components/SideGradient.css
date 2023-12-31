@@ -1,0 +1,12 @@
+.box {
+    height: 791px;
+    width: 2473px;
+}
+
+.box .ellipse {
+    height: 1085px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1038px;
+}
