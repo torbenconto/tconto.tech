@@ -2,16 +2,16 @@ import Navbar from "./components/Navbar";
 import HomeText from "./components/HomeText";
 
 function App() {
-  return (
-      <>
-          <div className="p-12 h-screen">
-              <Navbar />
-              <div className="mt-auto w-1/3 h-full flex items-end">
-                  <HomeText />
-              </div>
-          </div>
-      </>
-  );
+    return (
+        <>
+            <div className="flex flex-col h-screen p-4 md:px-12">
+                <Navbar />
+                <div className="flex-1 flex flex-col justify-end md:w-1/3">
+                    <HomeText />
+                </div>
+            </div>
+        </>
+    );
 }
 
 export default App;
