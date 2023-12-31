@@ -1,0 +1,28 @@
+.box {
+    height: 1855px;
+    width: 1915px;
+    position: fixed;
+    z-index: -1;
+}
+
+.box .ellipse {
+    height: 670px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1297px;
+    z-index: -1;
+}
+
+/* Media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+    .box {
+        height: 50vh; /* Adjust the height as needed */
+        width: 80vw; /* Adjust the width as needed */
+    }
+
+    .box .ellipse {
+        height: 40vh; /* Adjust the height as needed */
+        width: 70vw; /* Adjust the width as needed */
+    }
+}
