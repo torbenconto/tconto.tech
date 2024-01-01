@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "../styles/fonts.css";
 import "../styles/Navbar.css";
 
-function Navbar() {
-    const [activeLink, setActiveLink] = useState(0);
+function Navbar({activeLink, setActiveLink}) {
 
     const handleNavClick = (index) => {
         setActiveLink(index);

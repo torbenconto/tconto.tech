@@ -8,6 +8,8 @@ import LoadingScreen from './components/Loading'; // Import the LoadingScreen co
 
 function App() {
     const [loading, setLoading] = useState(true);
+    const [activeLink, setActiveLink] = useState(0);
+
 
     useEffect(() => {
         // Simulate data loading
@@ -21,7 +23,7 @@ function App() {
     return (
         <div className="flex flex-col h-screen max-h-screen p-4 md:px-12">
             <TopGradient/>
-            <Navbar />
+            <Navbar activeLink={activeLink} setActiveLink={setActiveLink} />
             <div className={`flex-1 flex flex-col mb-12 h-full justify-end md:w-1/3 ${loading ? 'hidden' : 'block'}`}>
                 <SideGradient/>
                 <MiddleGradient/>
