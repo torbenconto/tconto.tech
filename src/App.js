@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from "./components/Navbar";
 import LoadingScreen from './components/Loading';
-import Home from "./components/Home"; // Import the LoadingScreen component
+import Home from "./components/Home";
 
 function App() {
     const [loading, setLoading] = useState(true);
