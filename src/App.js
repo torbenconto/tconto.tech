@@ -22,7 +22,7 @@ function App() {
         <div className="flex flex-col h-screen max-h-screen p-4 md:px-12">
             <TopGradient/>
             <Navbar />
-            <div className={`flex-grow flex flex-col mb-12 justify-end md:w-1/3 overflow-y-auto ${loading ? 'hidden' : 'block'}`}>
+            <div className={`flex-1 flex flex-col mb-12 h-full justify-end md:w-1/3 ${loading ? 'hidden' : 'block'}`}>
                 <SideGradient/>
                 <MiddleGradient/>
                 <HomeText />
